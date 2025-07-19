@@ -1,0 +1,23 @@
+{
+  "name": "playwright-test-framework-demo",
+  "version": "1.0.0",
+  "description": "This repository contains a demonstration test automation framework built with Playwright and TypeScript. It is designed to showcase best practices for testing a modern web application, including the use of the Page Object Model (POM).",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitham85/playwright-test-framework-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitham85/playwright-test-framework-demo/issues"
+  },
+  "homepage": "https://github.com/smitham85/playwright-test-framework-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^24.0.13",
+    "dotenv": "^17.2.0"
+  }
+}
