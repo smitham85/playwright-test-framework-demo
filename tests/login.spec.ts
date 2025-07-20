@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { faker } from '@faker-js/faker';
 import { AccountPage, LoginPage } from '../pages';
 
 test.describe('Authentication', () => {
@@ -36,8 +37,8 @@ test.describe('Authentication', () => {
     page,
   }) => {
     // Arrange
-    const invalidEmail = 'invalid-user@email.com';
-    const invalidPassword = 'invalid-password';
+    const invalidEmail = faker.internet.email();
+    const invalidPassword = faker.internet.password();
 
     // Act
     await loginPage.login(invalidEmail, invalidPassword);
